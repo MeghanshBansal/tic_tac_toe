@@ -1,0 +1,42 @@
+header {
+  font-size: 70px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.main {
+  text-align: center;
+  min-height: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.square {
+  max-width: 100px;
+  max-height: 100px;
+  min-height: 90px;
+  min-width: 90px;
+  margin: 2px;
+  box-shadow: 2px 2px rgb(195, 194, 194);
+  font-size: 20px;
+}
+
+.gameResetButton {
+  margin: 0 auto;
+  margin-top: 20px;
+  font-weight: 400px;
+  font-size: large;
+  box-shadow: 1 1 gray;
+}
+
+.row {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
